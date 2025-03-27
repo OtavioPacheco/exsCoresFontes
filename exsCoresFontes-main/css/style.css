@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Anthonio";
+  src: url("../fontes/anthonio_script/AnthonioScript.ttf");
+}
+
+@font-face {
+  font-family: "soccer";
+  src: url("../fontes/soccer_league/SoccerLeague.ttf");
+}
+
+@font-face {
+  font-family: "rain";
+  src: url("../fontes/rained/RAINED\ PERSONAL\ USE.ttf");
+}
+
+body {
+  background-color: rgba(31, 122, 219, 0.888);
+}
+
+header {
+  background-color: #daa520;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 10px, 20px;
+  justify-content: space-between;
+  height: 100px;
+}
+
+header h1 {
+  margin-left: 100px;
+  font-family: "Anthonio";
+}
+
+main {
+  background-color: rgb(146, 146, 111, 0.5);
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 50%;
+}
+
+footer {
+  background-color: rgb(42, 192, 142);
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 50px;
+}
+
+#subtextHead {
+    font-family: "Noto Sans Canadian Aboriginal", sans-serif;
+}
+
+#subtextFoot {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Noto Sans Canadian Aboriginal", sans-serif;
+}
+
+#subtextPrin {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Bytesized", sans-serif;
+}
+
+
+#textPrin {
+  font-family: "rain";
+}
+
+#textFoot {
+  font-family: "soccer";
+}
+input {
+  margin-right: 100px;
+  width: 10%;
+  border-radius: 20px;
+  border: 5px, #000000, solid;
+}
